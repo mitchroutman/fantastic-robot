@@ -12,9 +12,18 @@ main {
     background-color: var(--bkgcolor);
 }
 
+h1 {
+    font-family: var(--fntfamily);
+    color: var(--fntcolor);
+    font-size: 300%;
+    text-align: left;
+    display: inline-block;
+}
+
 nav,
 li {
     text-align: right;
     display: inline;
     font-family: var(--fntfamily);
+    font-size: 150%
 }
