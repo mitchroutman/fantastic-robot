@@ -5,4 +5,16 @@
     --light: #BDD5EA;
     --highlight: #FE5F55;
     --fntcolor: #F7F7FF;
+    --fntfamily: Helvetica;
+}
+
+main {
+    background-color: var(--bkgcolor);
+}
+
+nav,
+li {
+    text-align: right;
+    display: inline;
+    font-family: var(--fntfamily);
 }
