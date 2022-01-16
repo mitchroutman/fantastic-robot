@@ -23,9 +23,19 @@ h1 {
   text-align: right;
 }
 
+.about-me {
+  color: var(--highlight);
+  font-size: 75px;
+}
+
+.portfolio-me {
+  color: var(--highlight);
+  font-size: 75px;
+}
+
 #card {
   display: flex;
-  flex-direction: wrap;
+  flex-flow: wrap;
 }
 
 @media screen and (max-width: 768px) {
