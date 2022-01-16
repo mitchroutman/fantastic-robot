@@ -19,6 +19,30 @@ h1 {
   text-align: left;
 }
 
+.one {
+  height: 300px;
+  width: 300px;
+  background: red;
+}
+
+.two {
+  height: 300px;
+  width: 300px;
+  background: yellow;
+}
+
+.three {
+  height: 300px;
+  width: 300px;
+  background: teal;
+}
+
+.four {
+  height: 300px;
+  width: 300px;
+  background: purple;
+}
+
 #navbar {
   text-align: right;
 }
@@ -38,7 +62,26 @@ h1 {
   flex-flow: wrap;
 }
 
-@media screen and (max-width: 768px) {
+/* -- MEDIA QUERIES -- */
+
+@media screen and (max-width: 992px) {
+  header,
+  main {
+    flex-direction: column;
+  }
+
+  section {
+    padding-right: 0;
+  }
+
+  aside {
+    width: 100%;
+    text-align: center;
+    }
+    
+  }
+
+  @media screen and (max-width: 768px) {
     header,
     main {
       flex-direction: column;
@@ -52,4 +95,21 @@ h1 {
       width: 100%;
       text-align: center;
     }
+  }
+
+  @media screen and (max-width: 600px) {
+    header,
+    main {
+      flex-direction: column;
+    }
+
+    section {
+      padding-right: 0;
+    }
+
+    aside {
+      width: 100%;
+      text-align: center;
+    }
+    
   }
