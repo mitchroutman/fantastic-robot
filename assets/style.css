@@ -19,20 +19,3 @@ h1 {
     text-align: left;
     display: inline-block;
 }
-
-nav,
-li {
-    text-align: right;
-    display: inline;
-    font-family: var(--fntfamily);
-    font-size: 150%
-}
-
-.aboutme {
-    margin-bottom: 15px;
-    margin-top: 15px;
-}
-
-.aboutme p {
-    text-align: right;
-}
