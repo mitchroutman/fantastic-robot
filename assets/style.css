@@ -14,8 +14,19 @@
     background-color: var(--bkgcolor);
 }
 
+h1 {
+  font-size: 300%;
+  text-align: left;
+}
 
+#navbar {
+  text-align: right;
+}
 
+#card {
+  display: flex;
+  flex-direction: wrap;
+}
 
 @media screen and (max-width: 768px) {
     header,
