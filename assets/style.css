@@ -8,6 +8,12 @@
     --fntfamily: Helvetica;
 }
 
+* {
+    font-family: var(--fntfamily);
+    color: var(--fntcolor);
+    background-color: var(--bkgcolor);
+}
+
 main {
     background-color: var(--bkgcolor);
 }
