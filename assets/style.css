@@ -14,31 +14,21 @@
     background-color: var(--bkgcolor);
 }
 
-main {
-    background-color: var(--bkgcolor);
-}
 
-h1 {
-    color: var(--fntcolor);
-    font-family: var(--fntfamily);
-    font-size: 300%;
-    width: 50%;
-    height: auto;
-    padding-top: 25px;
-    text-align: left;
-    margin-left: 15px;
-}
 
-nav,
-li {
-    align-content: right;
-    display: inline;
-    text-align: right;
-    width: 50%;
-    height: auto;
-    margin: 100px;
-}
 
-#aboutme h2 {
-    color: var(--highlight);
-}
+@media screen and (max-width: 768px) {
+    header,
+    main {
+      flex-direction: column;
+    }
+  
+    section {
+      padding-right: 0;
+    }
+  
+    aside {
+      width: 100%;
+      text-align: center;
+    }
+  }
