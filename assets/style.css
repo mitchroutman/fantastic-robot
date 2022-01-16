@@ -19,6 +19,16 @@ h1 {
   text-align: left;
 }
 
+.portfolio {
+  margin-left: 10%;
+}
+
+.about-me {
+  color: var(--highlight);
+  font-size: 75px;
+  text-align: left;
+}
+
 .one {
   height: 300px;
   width: 300px;
@@ -47,14 +57,10 @@ h1 {
   text-align: right;
 }
 
-.about-me {
+#portfolio-me {
   color: var(--highlight);
   font-size: 75px;
-}
-
-.portfolio-me {
-  color: var(--highlight);
-  font-size: 75px;
+  text-align: left;
 }
 
 #card {
