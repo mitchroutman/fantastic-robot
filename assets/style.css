@@ -19,14 +19,15 @@ h1 {
   text-align: left;
 }
 
-.portfolio {
-  margin-left: 10%;
-}
 
 .about-me {
   color: var(--highlight);
   font-size: 75px;
   text-align: left;
+}
+
+.about-me + article {
+  padding-left: 20px;
 }
 
 .one {
@@ -66,6 +67,11 @@ h1 {
 #card {
   display: flex;
   flex-flow: wrap;
+  margin-left: 10%;
+}
+
+a:hover {
+  color: var(--highlight);
 }
 
 /* -- MEDIA QUERIES -- */
