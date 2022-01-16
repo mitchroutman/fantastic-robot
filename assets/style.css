@@ -13,9 +13,26 @@ main {
 }
 
 h1 {
-    font-family: var(--fntfamily);
     color: var(--fntcolor);
+    font-family: var(--fntfamily);
     font-size: 300%;
+    width: 50%;
+    height: auto;
+    padding-top: 25px;
     text-align: left;
-    display: inline-block;
+    margin-left: 15px;
+}
+
+nav,
+li {
+    align-content: right;
+    display: inline;
+    text-align: right;
+    width: 50%;
+    height: auto;
+    margin: 100px;
+}
+
+#aboutme h2 {
+    color: var(--highlight);
 }
