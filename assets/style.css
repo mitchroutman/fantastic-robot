@@ -76,6 +76,23 @@ footer {
   background: purple;
 }
 
+.music {
+  background-color: transparent;
+  color: var(--fntcolor);
+}
+
+.dropdown {
+
+}
+
+.drpdwncontent {
+  display: none;
+  position: relative;
+  background-color: transparent;
+  min-width: none;
+}
+
+
 #navbar {
   display: block;
   text-align: right;
@@ -97,6 +114,10 @@ footer {
 }
 
 a:hover {
+  color: var(--highlight);
+}
+
+button:hover{
   color: var(--highlight);
 }
 
