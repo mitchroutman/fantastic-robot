@@ -56,7 +56,7 @@ footer {
 }
 
 .portfolio {
-  display: inline-block;
+  align-items: right;
 }
 
 .about-me {
@@ -68,6 +68,14 @@ footer {
 
 .about-me + article {
   padding-left: 20px;
+  display: inline-block;
+}
+
+.about-me + article 
+img,
+p {
+  display: inline-block;
+  
 }
 
 .one {
@@ -116,6 +124,20 @@ footer {
   display: flex;
   flex-flow: wrap;
   margin-left: 10%;
+}
+
+.profile {
+  max-height: 250px;
+  max-width: 250px;
+  /* align-content: center; */
+  border-style: none;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
+.about-me article p {
+  display: inline-block;
+  text-align: center;
 }
 
 a:hover {
