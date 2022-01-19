@@ -10,15 +10,20 @@ The goal of this project was to create an initial draft of a functional website 
  - [License](#license)
 
 # INSTALLATION
-
+Clone the working files and open the index.html using your preferred browser. 
 
 ## USAGE
+This site is to be used for personal development purposes only and shared with potential employers. The site should render as below
 
+```md
+    ![Site render](assets/images/mitchell-routman-portfolio.png)
+    ```
 
 ## CREDITS
-
+CSS reset by Myerweb - [http://myerweb.com/eric/tools/css/reset/](http://meyerweb.com/eric/tools/css/reset/)
 
 ## LICENSE
+Open source
 
 ---
 
