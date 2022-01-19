@@ -1,3 +1,5 @@
+/* GENERA */
+
 :root {
     --bkgcolor: #BDD5EA;
     --dark: #495867;
@@ -12,27 +14,19 @@
     font-family: var(--fntfamily);
     color: var(--fntcolor);
     background-color: var(--bkgcolor);
+    margin-left: 8px;
 }
+
+/* ELEMENTS */
 
 h1 {
   font-size: 300%;
   text-align: left;
-  margin-left: 10px;
   margin-top: 30px;
-}
-
-article {
-  margin-left: 10px;
 }
 
 p {
   text-align: center;
-}
-
-.portfolio p {
-  text-align: left;
-  /* font-size: 90%; */
-  margin-bottom: 20px;
 }
 
 img {
@@ -44,19 +38,12 @@ footer {
   text-align: center;
 }
 
-#contact {
-  color: var(--highlight);
-}
+/* CLASSES */
 
 .contactnav,
  li {
-  display: inline
+  display: inline-block
   color: var(--highlight);
-
-}
-
-.portfolio {
-  align-items: right;
 }
 
 .about-me {
@@ -71,17 +58,38 @@ footer {
   display: inline-block;
 }
 
-.about-me + article 
-img,
-p {
+.about-me article p {
   display: inline-block;
-  
+  text-align: center;
+}
+
+.about-me + article 
+p {
+  display: inline-block; 
+  float: right;
+}
+
+.profile {
+  max-height: 250px;
+  max-width: 250px;
+  align-content: center; 
+  border-style: none;
+  border-radius: 15px;
+  margin-left: 10px;
+  padding: 15px;
+}
+
+.portfolio {
+  align-items: right;
+}
+
+.portfolio p {
+  text-align: left;
 }
 
 .one {
   max-width: 300px;
   max-height: 300px;
-  /* margin-bottom: 10px; */
 }
 
 .two {
@@ -92,7 +100,6 @@ p {
 .three {
   height: 300px;
   width: 300px;
-  /* margin-bottom: 10px; */
 }
 
 .four {
@@ -105,6 +112,13 @@ p {
   color: var(--highlight);
   font-weight: bolder;
 }
+
+/* IDS */
+
+#contact {
+  color: var(--highlight);
+  position: relative;
+  }
 
 #navbar {
   display: block;
@@ -126,19 +140,7 @@ p {
   margin-left: 10%;
 }
 
-.profile {
-  max-height: 250px;
-  max-width: 250px;
-  /* align-content: center; */
-  border-style: none;
-  border-radius: 10px;
-  margin-left: 10px;
-}
-
-.about-me article p {
-  display: inline-block;
-  text-align: center;
-}
+/* EVENTS */
 
 a:hover {
   color: var(--highlight);
@@ -146,13 +148,23 @@ a:hover {
 
 button:hover{
   color: var(--highlight);
+} 
+
+.grow {
+  transition: all .3s ease-in-out;
 }
+
+img:hover {
+  transform: scale(1.1);
+}
+
 
 /* -- MEDIA QUERIES -- */
 @media screen and (max-width: 992px) {
   header,
   main,
-  nav {
+  nav
+  img {
     flex-direction: column;
   }
 
@@ -207,3 +219,22 @@ button:hover{
     }
     
   }
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
