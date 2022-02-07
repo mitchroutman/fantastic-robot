@@ -11,24 +11,40 @@
 </head>
 
 <main>
-   
     <header>
-       <h1>Mitchell Routman</h1>
-       <nav>
-            <ul id="navbar">
-                <li><a href="#aboutme">About Me</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <!-- NEW NAV -->
+        <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+            <a class="navbar-brand" href="#">Mitchell Routman</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Menu
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#aboutme">About Me</a>
+                    <a class="dropdown-item" href="#portfolio">Portfolio</a>
+                    <a class="dropdown-item" href="#contact">Contact</a>
+                  </div>
+                </li>
+            </div>
+          </nav>
     </header>
-
-    <br>
-    <br>
-    <hr>
-    <br>
-
-    <section id="aboutme">
+    
+    <section>
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+            <h1 class="display-4">About Me</h1>
+            <p class="lead">Junior developer in the making. Former digital project manager in the advertising indstury Karaoke enthusiast. Musician. Record collector. Photographer.</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- <section id="aboutme">
         <h2 class ="about-me">About Me</h2>
         <img src="assets/images/profile.jpeg" class="profile"></img>
         <article>
@@ -37,7 +53,7 @@
                 Karaoke enthusiast. Part-time musician. Record collector. Photogarapher.
              </p>
         </article>
-    </section>
+    </section> -->
 
     <br>
 
@@ -48,24 +64,39 @@
         </section>
         <article>
             <br>
-            <!-- All placeholder project images are owned photography -->
-            <aside id="card">
-                <article class="one">
-                    <a href="https://endlingny.bandcamp.com/"><img src="assets/images/imageone.jpg" alt="a train station">Project 1</img></a>
-                </article>
-
-                <article class="two">
-                    <a href="https://negativedepartment.bandcamp.com/"><img src="assets/images/imagetwo.jpg" alt="Woman with her head against a subway window">Project 2</img></a>
-                </article>
-
-                <article class="three">
-                    <a href="https://bricksandmonuments.bandcamp.com/releases"><img src="assets/images/imagethree.jpg" alt="a tailor shop window">Project 3</img></a>
-                </article>
-            
-                <article class="four">
-                    <a href="https://www.google.com"><img src="assets/images/imagefour.jpg" alt="sunny fall day">Project 3</img></a>
-                </article>
-            </aside>
+            <!-- PORTFOLIO CARDS -->
+            <div class="card" style="width: 18rem;">
+                <img src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="col card-img-top" alt="stylized food plating">
+                <div class="card-body">
+                  <h5 class="card-title">Project 1 - Redesigned Broccoli</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="https://github.com/mitchroutman/fantastic-robot" class="btn btn-primary">GitHub</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="" class="col card-img-top" alt="stylized food plating">
+                <div class="card-body">
+                  <h5 class="card-title">Project 1 - Redesigned Broccoli</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="https://negativedepartment.bandcamp.com/" class="btn btn-primary">GitHub</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="" class="col card-img-top" alt="stylized food plating">
+                <div class="card-body">
+                  <h5 class="card-title">Project 1 - Redesigned Broccoli</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="https://endlingny.bandcamp.com/" class="btn btn-primary">GitHub</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="" class="col card-img-top" alt="stylized food plating">
+                <div class="card-body">
+                  <h5 class="card-title">Project 1 - Redesigned Broccoli</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="https://bricksandmonuments.bandcamp.com/releases" class="btn btn-primary">GitHub</a>
+                </div>
+              </div>
         </article>
     </section>
 
