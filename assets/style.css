@@ -10,13 +10,42 @@
     --fntfamily: Helvetica;
 }
 
+header {
+  background-color: var(--bkgcolor);
+}
 
+main {
+  background-color: var(--bkgcolor);
+}
 
+.contactarea {
+  display: flex;
+  flex-direction: row;
+}
 
+#contactnav {
+  display: flex;
+  flex-direction: inline;
+}
 
+footer {
+  text-align: center;
+}
 
+.navbar {
+  background-color: var(--bkgcolor);
+}
 
+.about-me-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10%;
+}
 
+#about-me-descr {
+  text-align: center;
+}
 
 
 
