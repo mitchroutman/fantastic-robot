@@ -1,5 +1,3 @@
-/* GENERA */
-
 :root {
     --bkgcolor: #BDD5EA;
     --dark: #495867;
@@ -28,12 +26,26 @@ main {
   flex-direction: inline;
 }
 
+#aboutme {
+  float: left;
+  
+}
+
 footer {
   text-align: center;
 }
 
 .navbar {
   background-color: var(--bkgcolor);
+  /* opacity: .03; */
+}
+
+.about-me-label {
+  color: var(--highlight);
+}
+
+.aboutme {
+  float: left;
 }
 
 .about-me-img {
@@ -47,8 +59,40 @@ footer {
   text-align: center;
 }
 
+.card {
+  margin: auto;
+  float: none;
+  margin-bottom: 10px;
+}
 
+#contact-label {
+  color: var(--highlight);
+}
 
+#portfolio-label {
+  color: var(--highlight);
+}
+
+.card {
+  background: var(--medium);
+}
+
+.card-title {
+  color: var(--highlight);
+}
+
+.card-text {
+  color: white;
+}
+
+a:hover {
+  color: var(--highlight);
+}
+
+button:hover {
+  color: var(--highlight);
+  transition: all .3s ease-in-out;
+}
 
 /* -- MEDIA QUERIES -- */
 @media screen and (max-width: 992px) {
