@@ -7,7 +7,7 @@ The goal of this project was to create an initial draft of a functional website 
     ![Site render](assets/images/mitchell-routman-portfolio.png)
 
 `Updated Site
-    ![New site render](assets/images/...)
+    ![New site render](assets/images/updated-render.png)
 
 The revised version of this portfolio utilizes Boostrap components (nav, cards) to share a more streamlined, modern layout. The cards have been replaced with boostrap components for a more professional layout for latest projects. 
 
