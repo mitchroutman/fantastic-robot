@@ -30,7 +30,7 @@ CSS reset by Myerweb - [http://myerweb.com/eric/tools/css/reset/](http://meyerwe
 Boostrap components - [https://getbootstrap.com/](https://getbootstrap.com/)
 
 ## LICENSE
-Open source
+MIT
 
 ---
 
